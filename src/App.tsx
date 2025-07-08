@@ -1,8 +1,19 @@
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Myskills from "./components/Myskills";
+import "./index.css";
+import Home from "./pages/Home";
+
 const App = () => {
   return (
-    <div>
-      <h1>Under Development</h1>
-    </div>
+    <>
+      <Header />
+      <Home />
+      <Contact />
+      <Myskills />
+      <Footer />
+    </>
   );
 };
 
