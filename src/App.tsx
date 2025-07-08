@@ -1,19 +1,19 @@
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Myskills from "./components/Myskills";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout";
 import "./index.css";
 import Home from "./pages/Home";
+import Startproject from "./pages/Startproject";
 
 const App = () => {
   return (
-    <>
-      <Header />
-      <Home />
-      <Contact />
-      <Myskills />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="startproject" element={<Startproject />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 
