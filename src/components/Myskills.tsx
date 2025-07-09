@@ -1,3 +1,6 @@
+import ThreeDot from "./ThreeDot";
+
+
 const Myskills = () => {
   const skills = {
     languages: ["C", "JavaScript", "TypeScript", "Node.Js"],
@@ -20,11 +23,7 @@ const Myskills = () => {
         </p>
         <div className="flex flex-row gap-4 justify-center items-center h-full mt-7">
           <div className="flex flex-col gap-5 border-1 border-gray-400 rounded-lg h-[180px] px-5 py-3">
-            <div className="flex flex-row gap-1">
-              <div className="w-3 h-3 rounded-full bg-red-700"></div>
-              <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
-              <div className="w-3 h-3 rounded-full bg-green-500"></div>
-            </div>
+           <ThreeDot />
             <div className="text-3xl font-bold">
               {"</>"} <span>Languages</span>
             </div>

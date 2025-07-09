@@ -13,6 +13,7 @@ const Banner = () => {
         <h1 className="text-xl md:text-6xl lg:text-6xl font-bold my-5 text-center sm:max-w-3xl md:max-w-3xl lg:max-w-3xl">
           I help founders turn real-world problems into digital solutions
         </h1>
+        <h3>Hello! I'm Tarek Rahman, a Frontend Engineer</h3>
       </div>
     </>
   );
