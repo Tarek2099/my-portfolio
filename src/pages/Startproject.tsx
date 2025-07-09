@@ -5,6 +5,7 @@ import ThreeDot from "../components/ThreeDot";
 
 const Startproject = () => {
   return (
+   <>
     <div className="flex flex-col justify-center items-center max-w-7xl mx-auto py-5 pt-20 text-center">
       <div className="contact pb-10">
         <div className="py-10">
@@ -65,8 +66,10 @@ const Startproject = () => {
          
         </div>
       </div>
-      <FAQ />
+      
     </div>
+    <FAQ />
+   </>
   );
 };
 
