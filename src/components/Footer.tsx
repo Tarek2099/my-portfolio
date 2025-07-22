@@ -15,7 +15,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://linkedin.com/in/tarek209"
+            href="https://linkedin.com/in/tarek2"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -24,7 +24,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://twitter.com/Tarek2099"
+            href="https://x.com/tarek_mtrx"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -33,7 +33,7 @@ const Footer = () => {
         </li>
         <li>
           <a
-            href="https://facebook.com/tarek"
+            href="https://facebook.com/tarek.rahman.366471"
             target="_blank"
             rel="noopener noreferrer"
           >

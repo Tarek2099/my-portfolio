@@ -12,9 +12,9 @@ const Header = () => {
     <div className="header h-20 w-full max-w-7xl inset-x-0 mx-auto bg-transparent fixed z-5000 flex flex-row justify-between items-center py-4 px-8">
       <div className="logo">
         {/* <img className="w-10 h-10 rounded" src="/tarek.png" alt="Logo" /> */}
-        <h3 className="text-xl font-bold px-1 rounded-full cursor-pointer">
+        <Link className="text-xl font-bold px-1 rounded-full cursor-pointer" to={"/"}>
           <span className="text-blue-800 text-sm">{"</> "}</span>tarek.dev
-        </h3>
+        </Link>
       </div>
       <div className="nav border-1 hidden lg:block border-gray-300 px-3 py-2 rounded-full backdrop-blur-md">
         <ul className="flex flex-row justify-between items-center gap-2 text-gray-500 text-center text-sm">
@@ -28,7 +28,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              href="/about"
+              to="/about"
               className="focus:border-1 rounded-full  border-gray-300  px-4 py-1"
             >
               About

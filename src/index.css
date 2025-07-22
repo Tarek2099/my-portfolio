@@ -2,6 +2,7 @@
 
 @theme {
   @keyframes ping {
+
     75%,
     100% {
       transform: scale(2);
@@ -9,6 +10,7 @@
     }
   }
 }
+
 .slow-blinking-icon {
   animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
 }

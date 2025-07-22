@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Layout from "./components/Layout";
+import Layout from "./layout/layout";
 import "./index.css";
 import Home from "./pages/Home";
 import Startproject from "./pages/Startproject";
@@ -16,5 +16,6 @@ const App = () => {
     </BrowserRouter>
   );
 };
+
 
 export default App;
